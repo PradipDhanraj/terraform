@@ -1,7 +1,7 @@
 
 resource "aws_instance" "MyFirstInstnace" {
   count         = 1
-  ami           = "ami-05803413c51f242b7"
+  ami           = "ami-0bff25b43a4479334"
   instance_type = "t4g.micro"
 
   tags = {
